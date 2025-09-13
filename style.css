@@ -1,0 +1,180 @@
+/* Prevent horizontal scrolling and set background color */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #26c6da; /* Match header color */
+    overflow-x: hidden;
+}
+
+/* Site header styles */
+.site-header {
+    background-color: #26c6da;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0 5px 0; /* Reduce bottom padding to close gap */
+}
+
+/* Header text style */
+.site-header h2 {
+    margin: 0;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+/* Simple navigation bar styles */
+.site-nav {
+    background-color: #26c6da;
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.site-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.site-nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.site-nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 12px 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+}
+
+.site-nav a:hover {
+    background-color: #4dd0e1; /* Subtle, light teal hover */
+}
+
+/* CTA banner section styles */
+.cta-banner {
+    background-image: url('img/cta-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(30, 136, 229, 0.4);
+    background-blend-mode: lighten;
+    color: #ffffff;
+    min-height: 400px;
+    padding: 80px 20px;
+    text-align: center;
+    border-bottom: 8px solid #26c6da;
+    background-clip: border-box;
+    /* Add a light box-shadow for visibility */
+    box-shadow: 0 2px 8px rgba(30, 136, 229, 0.10);
+}
+
+.cta-banner h1 {
+    font-size: 2.5em;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.cta-banner p {
+    font-size: 1.2em;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #26c6da;
+    color: #ffffff;
+    padding: 15px 40px;
+    text-decoration: none;
+    font-size: 1.1em;
+    border-radius: 5px;
+    border: none;
+    display: inline-block;
+    font-weight: bold;
+    box-shadow: 0 2px 8px rgba(30, 136, 229, 0.15);
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.cta-button:hover {
+    background-color: #0097a7;
+}
+
+/* Pet Info Section: Two columns side by side */
+.pet-info-section {
+    width: 100%;
+    max-width: none;
+    margin: 0 0 40px 0;
+    background: #f8fcff; /* Light blue background for visibility */
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(30, 136, 229, 0.10);
+    overflow: hidden;
+    padding: 20px 0;
+    min-height: 450px;
+}
+
+/* Info text: left column */
+.pet-info-text {
+    width: 48%;
+    float: left;
+    color: #000000;
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-left: 10%;
+    margin-top: 60px;
+}
+
+/* Pet image: right column */
+.pet-info-image {
+    width: 25%;
+    float: right;
+    border-radius: 8px;
+    margin-left: 0;
+    margin-right: 10%;
+    margin-top: 60px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Clear floats after the section */
+.pet-info-section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Heading style for info */
+.pet-info-text h3 {
+    margin-top: 0;
+    color: #26c6da;
+}
+
+/* Contact Section: Simple, centered, and cohesive */
+.contact-section {
+    width: 100%;
+    background: #f8fcff; /* Light blue background for visibility */
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(30, 136, 229, 0.08);
+    margin: 0 auto 40px auto;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.contact-section h3 {
+    margin-top: 0;
+    color: #26c6da;
+    font-size: 1.5em;
+}
+
+.contact-section p {
+    color: #1e88e5;
+    font-size: 1.1em;
+    margin: 10px 0 0 0;
+}
